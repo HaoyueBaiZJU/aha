@@ -88,14 +88,19 @@ wget http://pages.cs.wisc.edu/~huangrui/imagenet_ood_dataset/iNaturalist.tar.gz
 
 ### Pretrained models
 
-# Pretrained models
-
 You can find the pretrained models in 
 
 ```
 ./checkpoints/Resnet34_vanilla.pt
+./checkpoints/cifar10_wrn_pretrained.pt
+./checkpoints/cifar100_wrn_pretrained.pt
 ```
 
+### The setected data for ImageNet-100 benchmark
+
+* ```selected_category_imagenet.pt```
+* ```selected_data_imagenet.pt```
+* ```selected_label_imagenet.pt```
 
 
 **Demo** 
@@ -105,7 +110,6 @@ We provide sample scripts to run the code. Feel free to modify the hyperparamete
 ```
 bash run.sh
 ```
-
 
 ### Citation
 
