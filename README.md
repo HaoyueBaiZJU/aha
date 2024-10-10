@@ -86,7 +86,7 @@ wget http://pages.cs.wisc.edu/~huangrui/imagenet_ood_dataset/iNaturalist.tar.gz
 
 ## Training and Evaluation 
 
-### Pretrained models
+**Pretrained models**
 
 You can find the pretrained models in 
 
@@ -96,12 +96,11 @@ You can find the pretrained models in
 ./checkpoints/cifar100_wrn_pretrained.pt
 ```
 
-### The setected data for ImageNet-100 benchmark
+**The setected data for ImageNet-100 benchmark**
 
 * ```selected_category_imagenet.pt```
 * ```selected_data_imagenet.pt```
 * ```selected_label_imagenet.pt```
-
 
 **Demo** 
 
