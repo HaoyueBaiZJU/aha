@@ -114,6 +114,15 @@ bash run.sh
 
 If you find our work useful, please consider citing our paper:
 
+```
+@article{bai2024aha,
+  title={AHA: Human-Assisted Out-of-Distribution Generalization and Detection},
+  author={Bai, Haoyue and Zhang, Jifan and Nowak, Robert},
+  journal={arXiv preprint arXiv:2410.08000},
+  year={2024}
+}
+```
+
 
 ### Further discussions
 For more discussions on the method and extensions, feel free to drop an email at hbai39@wisc.edu
